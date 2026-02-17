@@ -14,7 +14,7 @@ class JugadorsTable
     {
         return $table
             ->columns([
-                TextColumn::make('equipo.id')
+                TextColumn::make('equipo.nombre')
                     ->searchable(),
                 TextColumn::make('nombre')
                     ->searchable(),

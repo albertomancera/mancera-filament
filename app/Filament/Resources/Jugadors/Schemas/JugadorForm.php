@@ -13,7 +13,7 @@ class JugadorForm
         return $schema
             ->components([
                 Select::make('equipo_id')
-                    ->relationship('equipo', 'id')
+                    ->relationship('equipo', 'nombre')
                     ->required(),
                 TextInput::make('nombre')
                     ->required(),
